@@ -1,0 +1,1 @@
+outlook "mailto:%1&body=%2&subject=%3"

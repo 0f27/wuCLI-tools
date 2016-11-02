@@ -1,0 +1,1 @@
+"c:\Program Files\Microsoft Office\Office15\OUTLOOK.EXE" %*

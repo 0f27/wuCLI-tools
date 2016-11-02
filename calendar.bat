@@ -1,0 +1,1 @@
+outlook /select outlook:calendar %*

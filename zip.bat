@@ -1,0 +1,1 @@
+"c:\Program Files\7-Zip\7z.exe" a -ssw -mx7 -r %2.7z %1

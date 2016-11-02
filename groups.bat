@@ -1,0 +1,1 @@
+net user %1 /domain | perl -ne "print if /\*/" | perl -pe "s/\s*\*/\n\*/g; s/^[^*]+$//g; s/\*//g"

@@ -1,0 +1,1 @@
+msiexec /a %1 /qb TARGETDIR=C:\.\\

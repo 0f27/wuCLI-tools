@@ -1,0 +1,1 @@
+for /F %%f in (%1) do name %%f >> %2

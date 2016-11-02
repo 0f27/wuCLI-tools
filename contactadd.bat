@@ -1,0 +1,1 @@
+outlook /c ipm.contact %*

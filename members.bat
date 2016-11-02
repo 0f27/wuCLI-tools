@@ -1,0 +1,1 @@
+net group %1% /domain | perl -ne "print if /^[A-Z]{2}/" | perl -pe "s/\s+/\n/g"
