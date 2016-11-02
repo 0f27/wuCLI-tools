@@ -1,1 +1,1 @@
-mkdir %1
+mkdir %*
