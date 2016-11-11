@@ -1,4 +1,4 @@
 echo off
 cls
-python c:\temp\pwgen.py
+python %~dp0\pwgen.py
 echo on

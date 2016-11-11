@@ -5,7 +5,7 @@ Bunch of CLI tools and tricks which I use as non-IT-user, who forced to work wit
 
 - like CLI and hate mouse
 - working in organisation which forced you to use windows instead of normal OS
-- surrounded by shitty software
+- are surrounded by shitty software
 - have no admin rights and have no business justification to install something cool
 
 ### If you have adm rights and/or business justification
