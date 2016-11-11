@@ -85,3 +85,5 @@ msiexec /a strawberry-perl-5.24.0.1-32bit.msi /qb TARGETDIR=C:\perl
 **unzip**.bat - unpack archive using 7z installed
 
 **zip**.bat - create .7z archive via 7z program
+
+**!CMD IT!**.reg - add cmd and powershell to context menu (requre adm rights!!)
