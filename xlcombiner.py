@@ -21,12 +21,13 @@ ws = wb.add_worksheet('totals')
 
 # list xl files in directory &
 # read-write from-to files sequentially
-i = 0
+i = 1 # row
 for f in listdir():
     rb = open_workbook(f, on_demand = True)
     rs = rb.sheet_by_index(0)
     for r in range(rs.nrows):
-        j = 0
+        j = 1 # column
+        ws.write(i,0,f)
         for v in rs.row(r):
             ws.write(i,j,v.value)
             j += 1
