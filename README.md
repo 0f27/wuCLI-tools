@@ -4,6 +4,7 @@ Bunch of CLI tools and tricks which I use as non-IT-user, who forced to work wit
 ### Assume that You:
 
 - like CLI and hate mouse
+- love lightweight tools
 - working in organisation which forced you to use windows instead of normal OS
 - are surrounded by shitty software
 - have no admin rights and have no business justification to install something cool
@@ -38,17 +39,17 @@ msiexec /a strawberry-perl-5.24.0.1-32bit.msi /qb TARGETDIR=C:\perl
 
 ### Tool list: 
 
-**appointmentadd**.bat - open outlook window - new appointment
+**mail.bat** - open outlook window - new email
 
-**aria2c**.exe - https://aria2.github.io/, multiprotocol download utility, you can specify proxy settings
+**meeting**.bat - open outlook window - new appointment
 
 **calendar**.bat - open outlook calendar
-
-**cat**.bat - just s alias for "type" command. Because I ALLWAYS type "cat" unstead of "type". Annoying
 
 **contactadd**.bat - open outlook window - new contact
 
 **contacts**.bat - open outlook contacts
+
+**cat**.bat - just s alias for "type" command. Because I ALLWAYS type "cat" unstead of "type". Annoying
 
 **cp**.bat - just s alias for "xcopy" command. Because "cp" is more convinient
 
@@ -62,9 +63,7 @@ msiexec /a strawberry-perl-5.24.0.1-32bit.msi /qb TARGETDIR=C:\perl
 
 **md**.bat - "mkdir"
 
-**md5**.exe - i do not remember where i downloaded it, but it returns md5sum 
-
-**members**.bat - list users of specified domain group, uses my organization's format
+**members**.bat - list users of specified domain group, uses my organization's format (change it for yours)
 
 **mv**.bat - "move"
 
@@ -87,3 +86,12 @@ msiexec /a strawberry-perl-5.24.0.1-32bit.msi /qb TARGETDIR=C:\perl
 **zip**.bat - create .7z archive via 7z program
 
 **!CMD IT!**.reg - add cmd and powershell to context menu (requre adm rights!!)
+
+**tricksheet.md** - some links to cool tools and how-tos
+
+**xlcombiner.py** - combine all excel books (firsh sheet  only) in folder into one file
+
+**xlcombiner.bat** - cmd-based wrap for xlcombiner.py
+
+
+*some other things which i was to lazy to describe*
