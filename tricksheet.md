@@ -25,3 +25,12 @@ cls
 
 - https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
 
+### if you have no nmap
+
+```bash
+for i in {2..254}; do ping "192.168.0.$i" -c 1; done >> hosts.up
+cat hosts.up | grep ' 0% ' -B 2 | awk -F' ' '/192/ {print $2}'
+```
+
+the same idea for windows
+
