@@ -1,0 +1,1 @@
+awk -F# 'BEGIN {OFS="\t"; print "Category\tUniqName"} {if ($2!="") {flm = $2} else {print flm,$1}}'| sed 's/$'"/`echo \\\r`/"

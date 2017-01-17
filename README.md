@@ -19,7 +19,7 @@ Bunch of CLI tools and tricks which I use as non-IT-user, who forced to work wit
 - pwgen required Python to be installed (I'll explain how to)
 - I also recommend you to put all tools to one folder and add path to this folder to %path% variable
 
-### Some tricks to meet requirements:
+### How to meet requirements:
 
 - download strawberry perl:
 ```cmd
@@ -35,6 +35,12 @@ msiexec /a strawberry-perl-5.24.0.1-32bit.msi /qb TARGETDIR=C:\perl
 ```
 
 - to install Python3 just download and install Anaconda - it does not required adm rights and contains everithing you need in daily use
+
+- to add new path to PATH variable:
+
+```cmd
+setx PATH "%PATH%;C:\\Something\\bin"
+```
 
 
 ### Tool list: 
@@ -93,5 +99,8 @@ msiexec /a strawberry-perl-5.24.0.1-32bit.msi /qb TARGETDIR=C:\perl
 
 **xlcombiner.bat** - cmd-based wrap for xlcombiner.py
 
+**1d22d.sh** - 1d to tab-separated 2d list converter. Use it with gitportable.exe
 
-*some other things which i was to lazy to describe*
+**unix2dos.sh** - to convert text file to use DOS line endings
+
+*some other things which i was too lazy to describe*
