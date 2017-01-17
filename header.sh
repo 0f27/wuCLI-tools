@@ -1,0 +1,1 @@
+head -n 1 | sed 's/;/\n/g'| awk '{print x+=1, $1}'
