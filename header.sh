@@ -1,1 +1,1 @@
-head -n 1 | sed 's/;/\n/g'| awk '{print x+=1, $1}'
+head -n 1 | sed 's/;/\n/g'| awk 'BEGIN {OFS="\t"} {print x+=1, $_}'
