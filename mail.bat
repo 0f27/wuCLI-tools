@@ -1,1 +1,1 @@
-outlook /c ipm.note
+outlook /c ipm.note %*

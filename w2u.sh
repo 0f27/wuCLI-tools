@@ -1,0 +1,1 @@
+iconv -f CP1251 -t UTF-8
