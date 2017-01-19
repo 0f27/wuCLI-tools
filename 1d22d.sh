@@ -1,1 +1,1 @@
-awk -F# 'BEGIN {OFS="\t"; print "Category\tUniqName"} {if ($2!="") {categ = $2} else {print categ,$1}}'| sed 's/$'"/`echo \\\r`/"
+awk -F# 'BEGIN {OFS="\t"; print "Category\tUniqName"} {if ($2!="") {categ = $2} else {print categ,$1}}'
