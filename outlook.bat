@@ -1,1 +1,1 @@
-"c:\Program Files (x86)\Microsoft Office\Office15\OUTLOOK.EXE" %*
+"c:\Program Files (x86)\Microsoft Office\Office16\OUTLOOK.EXE" %*
