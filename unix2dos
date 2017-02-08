@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+# replace Unix new string characters (LF) with DOS ones (CR LF)
 sed 's/$'"/`echo \\\r`/"
