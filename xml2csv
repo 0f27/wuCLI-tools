@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # simple xml-to-csv table parcer
 # use it in pipe
-tr -d '\n|,' | sed -r 's/<tr[^>]*>/\n/g; s/<t[dh][^>]*>/,/g; s/<[^>]+>|\[[a-zA-Z0-9]+\]//g'
+tr -d '\n|,' | sed -r 's/<tr[^>]*>/\n/gi; s/<t[dh][^>]*>/,/gi; s/<[^>]+>|\[[a-zA-Z0-9]+\]//g; s/&nbsp/ /gi'
