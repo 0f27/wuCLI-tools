@@ -1,6 +1,6 @@
-# Using shell as excel
-# CLI vs ms-excel
-# Cookbook
+# CLI as replacement for ms-excel
+Using shell as excel
+Cookbook
 
 ## Why?
 
