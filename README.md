@@ -1,13 +1,12 @@
 # wuCLI-tools
-Bunch of CLI tools and tricks which I use as non-IT-user, who forced to work with windows on machine without adm permissions.
+Bunch of CLI tools and tricks which you can use without admin rights when forced to use windows mashime and have no adm perms.
 
 ### Assume that You:
 
 - like CLI and hate mouse
 - love lightweight tools
-- working in organisation which forced you to use windows instead of normal OS
 - are surrounded by shitty software
-- have no admin rights and have no business justification to install something cool
+- have no admin rights or to lazy to describe business justification
 
 ### If you have adm rights and/or business justification
 
@@ -18,6 +17,7 @@ Bunch of CLI tools and tricks which I use as non-IT-user, who forced to work wit
 - some tools required Perl to be installed (I'll explain how to)
 - pwgen required Python to be installed (I'll explain how to)
 - I also recommend you to put all tools to one folder and add path to this folder to %path% variable
+- gitportable for shell scripts
 
 ### How to meet requirements:
 
@@ -35,6 +35,8 @@ msiexec /a strawberry-perl-5.24.0.1-32bit.msi /qb TARGETDIR=C:\perl
 ```
 
 - to install Python3 just download and install Anaconda - it does not required adm rights and contains everithing you need in daily use
+
+- gitportable - download and unpack (https://github.com/sheabunge/GitPortable/blob/master/README.md)
 
 - to add new path to PATH variable:
 
