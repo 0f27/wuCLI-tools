@@ -30,7 +30,7 @@ in2csv -f xls --sheet 'sheetname' file.xls > file.csv
 
 ## Common scrabbing operations
 
-### adding header
+### adding header (column names, first row)
 
 ```bash
 < file.csv header -a '1stColumnName,2dColumnName,3dColumnName' > file1.csv
@@ -54,12 +54,13 @@ mv file1.csv file.csv
 ```
 
 using regexps
+
 ```bash
 < file.csv header -r "$( < file.csv head -n 1 | sed 's/what/to/g')" > file1.csv
 mv file1.csv file.csv
 ```
 
-### Column cut/reordering
+### column cut/reordering
 
 ```bash
 < inputfile.csv csvcut -c 1,3,2,4-8 > outputfile.csv
@@ -149,9 +150,12 @@ csvjoin --left -c 'column_name' file.csv vocabulary.csv > result.csv
 ```
 
 ### counting unique values from the column 'last_name'
-< file.csv csvcut -c 'last_name' | body sort | body uniq | body wc -l
 
-## getting info
+```bash
+< file.csv csvcut -c 'last_name' | body sort | body uniq | body wc -l
+```
+
+## Getting info
 
 ### counting lines
 
@@ -164,6 +168,7 @@ csvjoin --left -c 'column_name' file.csv vocabulary.csv > result.csv
 ```bash
 < file.csv csvcut -n
 ```
+
 or
 
 ```bash
