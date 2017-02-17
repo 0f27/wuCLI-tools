@@ -1,4 +1,6 @@
-# Using shell as excel. CLI vs ms-excel. Cookbook
+# Using shell as excel
+# CLI vs ms-excel
+# Cookbook
 
 ## Why?
 
@@ -175,7 +177,7 @@ or
 < file.csv head -n 1 | sed -r 's/(\"[^\",]+), ?([^\"]+\")/\1 \2/g; s/,/\n/g'| awk 'BEGIN {OFS="\t"} {print x+=1, $_}'
 ```
 
-### Analising columns
+### analising columns
 
 ```bash
 < file.csv csvstat
