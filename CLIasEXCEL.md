@@ -31,6 +31,18 @@ or
 in2csv -f xls --sheet 'sheetname' file.xls > file.csv
 ```
 
+mass convert
+
+```bash
+for i in *.xls*; do in2csv "$i" > "$i.csv"; done
+```
+
+mass convert with vertical concatenation
+
+```bash
+for i in *.xls*; do in2csv "$i" >> "totals.csv"; done
+```
+
 ## Common scrabbing operations
 
 ### adding header (column names, first row)
