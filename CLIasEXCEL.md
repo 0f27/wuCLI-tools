@@ -85,6 +85,12 @@ mv file1.csv file.csv
 < inputfile.csv csvcut -c 3-5,1 | body sort | body uniq > outputfile.csv
 ```
 
+### get rows between two search instances
+
+```bash
+< file.csv sed -n '/search_one/,/search_two/p' > cut.csv
+```
+
 ### removing first 3 lines
 
 ```bash
