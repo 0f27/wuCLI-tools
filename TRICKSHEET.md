@@ -3,7 +3,10 @@
 ### installing unix envirenment and dataanalisis utils to your smartphone:
 
 - install termux app
-- execute there: ```bash apt update; apt -y upgrade; apt install -y openssh python git python-dev clang fftw aria2 nodejs gawk jq tmux fish man perl rsync; npm install -g xml2json-command; LDFLAGS=" -lm -lcompiler_rt" pip install numpy pandas csvkit```
+- execute there:
+```bash
+apt update; apt -y upgrade; apt install -y openssh python git python-dev clang fftw aria2 nodejs gawk jq tmux fish man perl rsync; npm install -g xml2json-command; LDFLAGS=" -lm -lcompiler_rt" pip install numpy pandas csvkit
+```
 
 ### portable unix utilities and analogs for windiows:
 
