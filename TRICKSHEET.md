@@ -18,6 +18,12 @@ cd %userprofile%\Downloads
 setup*.exe -B
 ```
 
+### how to change cmd codepage to utf-8
+
+```cmd
+chcp 65001
+```
+
 ### how to quickly install anaconda in linux envirenment
 
 ```bash
