@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 #!/usr/bin/env bash
 # rename all files/filders in current folder replacing spaces with underscores
 for i in *; do mv "$i" "$(echo $i | sed 's/\s/_/g')"; done
+=======
+#!/usr/bin/env bash
+# rename all files/filders in current folder replacing spaces with underscores
+for i in *; do mv "$i" "$(echo $i | sed 's/ /_/g')"; done
+>>>>>>> a7266c2d0bf5634de3f48190c3691b2315980cbf

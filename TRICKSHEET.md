@@ -18,6 +18,16 @@ cd %userprofile%\Downloads
 setup*.exe -B
 ```
 
+### how to quickly install anaconda in linux envirenment
+
+```bash
+wget https://repo.continuum.io/archive/Anaconda2-4.3.0-Linux-x86_64.sh
+bash Anaconda2-4.3.0-Linux-x86_64.sh -b -p $HOME/anaconda2
+export PATH="$HOME/anaconda2/bin:$PATH"
+echo export PATH="$HOME/anaconda2/bin:$PATH" >> .bashrc
+```
+
+
 ### portable unix utilities and analogs for windiows:
 
 - https://sourceforge.net/projects/unxutils/
