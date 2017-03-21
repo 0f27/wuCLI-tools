@@ -5,8 +5,12 @@
 - install termux app
 - execute there:
 ```bash
-apt update; apt -y upgrade; apt install -y openssh python git python-dev clang fftw aria2 nodejs gawk jq tmux fish man perl rsync; npm install -g xml2json-command; LDFLAGS=" -lm -lcompiler_rt" pip install numpy pandas csvkit
+apt update && apt -y upgrade
+apt install -y clang fftw libxml2-dev libzmq libzmq-dev freetype freetype-dev libxslt-dev libpng libpng-dev openssh python python-dev aria2 nodejs git gawk jq tmux fish man perl python2 rsync pkg-config
+npm install -g xml2json-command
+LDFLAGS=" -lm -lcompiler_rt" pip install numpy pandas csvkit lxml matplotlib jupyter
 ```
+
 ### how to install cygwin without adm rights
 
 - download it from official site: https://cygwin.com
@@ -41,6 +45,7 @@ echo export PATH="$HOME/anaconda2/bin:$PATH" >> .bashrc
 
 ### portable unix utilities and analogs for windiows:
 
+- https://cygwin.com/
 - https://sourceforge.net/projects/unxutils/
 - https://github.com/sheabunge/GitPortable/tree/master/GitPortable
 - ftp://ftp.vim.org/pub/vim/pc/vim80-069w32.zip
