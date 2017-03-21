@@ -40,6 +40,7 @@ echo export PATH="$HOME/anaconda2/bin:$PATH" >> .bashrc
 
 ### portable unix utilities and analogs for windiows:
 
+- https://cygwin.com/
 - https://sourceforge.net/projects/unxutils/
 - https://github.com/sheabunge/GitPortable/tree/master/GitPortable
 - ftp://ftp.vim.org/pub/vim/pc/vim80-069w32.zip
