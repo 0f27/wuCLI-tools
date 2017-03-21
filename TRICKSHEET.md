@@ -17,6 +17,11 @@ apt update; apt -y upgrade; apt install -y openssh python git python-dev clang f
 cd %userprofile%\Downloads
 setup*.exe -B
 ```
+### how to download site recursively
+
+```bash
+wget -rkp -l3 -np -nH --cut-dirs=1 http://yoursite
+```
 
 ### how to change cmd codepage to utf-8
 
