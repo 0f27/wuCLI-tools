@@ -84,3 +84,42 @@ cat hosts.up | grep ' 0% ' -B 2 | awk -F' ' '/192/ {print $2}'
 
 the same idea for windows
 
+### vi / vim for dummies
+
+open/save/close
+:o file.txt
+:w
+:q
+
+undo/redo
+u
+Ctrl+r
+
+select
+v
+
+cut/copy/paste
+d
+y
+p
+
+cut whole string / copy whole string
+dd
+yy
+
+arrows left/down/up/right
+h
+j
+k
+l
+
+search and go to
+/something
+
+replace
+in file
+:%s/what/to/g
+in row
+:s/what/to/g
+
+
