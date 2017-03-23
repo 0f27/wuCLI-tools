@@ -65,6 +65,12 @@ net user Administrator mynewpass
 cls
 ```
 
+### how to send multiple files to different senders via ms outlook
+
+```bash
+for i in *.pdf; do /cygdrive/c/Program\ Files\ \(x86\)/Microsoft\ Office/Office16/OUTLOOK.EXE /c ipm.note /a $i /m $(some-kind-of-function-to-parce-filename-to-email-address)
+```
+
 ### Really cool and lightweight pdf/epub/mobi reader
 
 - https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
