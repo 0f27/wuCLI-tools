@@ -124,4 +124,9 @@ in file
 in row
 :s/what/to/g
 
+tiling (vim)
+Ctrl+w, s
+Ctrl+w, v
+Ctrl+w, [hjkl]
+Ctrl+w, q
 
