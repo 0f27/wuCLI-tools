@@ -89,46 +89,55 @@ by the way it is better to use nmap
 ### vi / vim for dummies
 
 open/save/close
-:o file.txt
-:w
-:q
+
+- :o file.txt
+- :w
+- :q
 
 undo/redo
-u
-Ctrl+r
+
+- u
+- Ctrl+r
 
 select
-v
+
+- v
 
 cut/copy/paste
-d
-y
-p
+
+- d
+- y
+- p
 
 cut whole string / copy whole string
-dd
-yy
+
+- dd
+- yy
 
 arrows left/down/up/right
-h
-j
-k
-l
+
+- h
+- j
+- k
+- l
 
 search and go to
-/something
+
+- /something
 
 replace
-in file
-:%s/what/to/g
-in row
-:s/what/to/g
+
+- in file
+- :%s/what/to/g
+- in row
+- :s/what/to/g
 
 tiling (vim)
-Ctrl+w, s
-Ctrl+w, v
-Ctrl+w, [hjkl]
-Ctrl+w, q
+
+- Ctrl+w, s
+- Ctrl+w, v
+- Ctrl+w, [hjkl]
+- Ctrl+w, q
 
 ### get rid of dublicate lines
 
