@@ -130,3 +130,13 @@ Ctrl+w, v
 Ctrl+w, [hjkl]
 Ctrl+w, q
 
+### get rid of dublicate lines
+
+```bash
+< file awk '!(count[$0]++)'
+```
+or
+```bash
+< file sort | uniq
+```
+
