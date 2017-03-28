@@ -127,9 +127,9 @@ search and go to
 
 replace
 
-- in file
+in file
 - :%s/what/to/g
-- in row
+in row
 - :s/what/to/g
 
 tiling (vim)
