@@ -155,9 +155,17 @@ or
 import win32com.client as win32
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
+
 mail.To = 'to address'
 mail.Subject = 'Message subject'
 mail.Body = 'Message body'
 mail.HTMLBody = '<h2>HTML Message body</h2>'# this field is optional
+
+attachment1 = "Path to attachment no. 1"
+attachment2 = "Path to attachment no. 2"
+mail.Attachments.Add(attachment1)
+mail.Attachments.Add(attachment2)
+
 mail.Send()
 ```
+
