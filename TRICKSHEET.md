@@ -169,3 +169,8 @@ mail.Attachments.Add(attachment2)
 mail.Send()
 ```
 
+### caching git credentials for five minutes
+
+```bash
+git config --global credential.helper 'cache --timeout=300'
+```
